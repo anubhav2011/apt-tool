@@ -1,0 +1,34 @@
+[project]
+name = "ai-question-generator"
+version = "0.1.0"
+description = "AI question dataset and refined question generator"
+requires-python = "==3.10.0"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "sqlalchemy",
+    "pydantic",
+    "dotenv",
+    "requests",
+    "python-dotenv",
+    "numpy",
+    "mediapipe",
+    "opencv-contrib-python",
+    "opencv-python",
+    "python-multipart",
+    "requests",
+    "mysql-connector-python"
+]
+
+### UV install
+#pip install uv
+### Create env
+#uv venv
+### Activate venv
+#source .venv/bin/activate
+### Sync toml
+#uv sync
+### uv.lock to requirements
+#uv pip freeze > requirements.txt
+### Compile uv dependencies to requirements
+#uv pip compile pyproject.toml --output-file requirements.txt --no-deps
